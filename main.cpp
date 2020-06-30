@@ -14,7 +14,7 @@ public:
         int sum = 0;
         
         while (head != nullptr) {
-            sum *= 2;
+            sum = sum << 1;
             sum += head->val;
             head = head->next;
         }
